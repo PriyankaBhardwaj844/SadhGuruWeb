@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadhguru Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+</head>
+<body>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 2px 0px;
+  padding-left: 35px;
+  width: 100%;
+  height: 70px;
+}
+.isha1{
+  margin-top: -7px;
+  margin-left: -8px;
+  width: 60px;
+}
+.header-second{
+  position: absolute;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.header a {
+  float: left;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.v1{
+  margin-left: 90px;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.header {
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  } 
+  .header{
+    float: none;
+  }
+}
+.center {
+  display: block;
+  margin-left: 37px;
+  width: 95%;
+  height: 475px;
+}
+.f1{
+  float: right;
+  padding-right: 60px;
+  position: absolute;
+}
+.carousel-indicators li{
+  background-color: rgba(189, 192, 17, 0.959);
+  flex-direction: column;
+  margin-right: 10px;
+  width: 50px;
+}
+
+.column {
+  float: left;
+  margin-left: 30px;
+  width: 300px;
+  padding: 0 10px;
+  position:relative;
+   top:-1870px;
+}
+
+.row 
+{
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  margin: 0 0.5em;
+  height: 400px;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+  width: 300px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+</style>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid" style="background-color: #403737;">
+          <div class="navbar-header">
+        
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active" style=" background-color: black;"><a href="#" 
+              style="background-color: black; width: 60px; padding-left: 30px; color: 
+              #b39802; margin-right: 120px;">SadhguruExclusive</a></li>
+            <li><a href="#" style="margin-right:20px; color:rgba(255, 255, 255, 0.664); 
+            font-size: 12px;">About</a></li>
+
+            <select style="margin-top:15px; border-style:none; background-color:#403737; 
+            cursor: pointer;
+            color:rgba(255, 255, 255, 0.664); 
+            margin-right:30px; font-size: 12px;">
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Uk & Europe">Uk & Europe</option>
+                <option value="United States">United States</option>
+                <option value="Global">Global</option>
+            </select>
+            <button class="login" style="margin-top:15px; border-style:none; background-color:#403737; 
+            color:white; margin-right:20px; font-size: 12px; color:rgba(255, 255, 255, 0.664);">Login</button>|
+            <button class="sign" style="margin-top:15px; border-style:none; 
+            background-color:#403737; color:white; margin-right:30px; font-size: 12px; color:rgba(255, 255, 255, 0.664);">Sign Up</button>
+            <img src="img.svg" alt="not yet" style="width: 35px; margin-right:30px;">
+          </ul>
+        </div>
+     
+
+      <div class="header">
+        <a href="#"><img src="isha.webp" class="isha1" alt="not yet" style="margin-right: -4px;"></a>
+        <div class="header-second">
+          <a class="" href="#sadhguru">Sadhguru</a>
+          <a href="wisdom.html">Wisdom</a>
+          <a href="#yoga & Meditation">Yoga & Meditaion</a>
+          <a href="#events">Events</a>
+          <a href="#ceneters">Centers</a>
+          <a href="#health">Health</a>
+          <a href="#outreach">Outreach</a>
+
+          <a href="#" class="v1">Volunteer</a>
+          <a href="#">Donate</a>
+          <a href="shop.html">Shop</a>
+          <i class="fa-solid fa-magnifying-glass" style="margin-top: 15px; margin-left: 16px; font-size:20px; cursor:pointer;"></i>  
+        </div>
+      </div>
+      </nav>
+
+      <div style="padding-left:10%">
+        <a href="#">Home</a>
+        /
+        <a href="#">Volunteer</a>
+      </div>
+
+      <div>
+      
+      <img src="imgg.jpg" alt="not yet" class="center">
+      <h1 style="margin-top:-350px; margin-left:190px; color:rgba(255, 255, 255, 0.801); font-size:80px;">Sadhguru</h1>
+      <h2 style="margin-top:-10px; padding-top: 40px; letter-spacing: 1px; margin-left:170px; color:rgba(201, 159, 24, 0.651); font-size:20px;">This life for me is an endeavor to help people<br>
+         experience and express their divinity. May you <br>
+         know the bliss of the Divine. –Sadhguru</h2>
+
+         <iframe class="f1" width="560" height="315" style="margin-left:750px; margin-top:-250px;" src="https://www.youtube.com/embed/qRp9MYhTjWY" 
+         title="Sadhguru: Yogi, Mystic, Visionary" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      
+      <div class="bgwhite" style="margin-left:37px; margin-top: 155px;">
+        <img src="bgwhite.webp" alt="not yet" width="1282px;" height="2000px; ">
+
+      <!---->  
+
+      <!--1st-->
+      <div class="container" style="position: relative; top:-1880px; bottom: 50px;margin-left: 40px;">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+          <ol class="carousel-indicators" style="margin-left:-680px;">
+            <li data-target="#myCarousel" data-slide-to="0" class="active" style="width: 40px;"></li>
+            <li data-target="#myCarousel" data-slide-to="1" style="width: 40px;"></li>
+            <li data-target="#myCarousel" data-slide-to="2" style="width: 40px;"></li>
+            <li data-target="#myCarousel" data-slide-to="3" style="width: 40px;"></li>
+            <li data-target="#myCarousel" data-slide-to="4" style="width: 40px;"></li>
+            <li data-target="#myCarousel" data-slide-to="5" style="width: 40px;"></li>
+            <li data-target="#myCarousel" data-slide-to="6" style="width: 40px;"></li>
+          </ol>
+      
+        
+          <div class="carousel-inner" >
+            <div class="item active">
+              <img src="img8.avif"alt="not yet" style="width:40%;">
+            </div>
+      
+            <div class="item">
+              <img src="img7.avif" alt="not yet" style="width:40%;">
+            </div>
+          
+            <div class="item">
+              <img src="img6.avif" alt="not yet" style="width:40%;">
+            </div>
+
+            <div class="item">
+              <img src="img5.avif" alt="not yet" style="width:40%;">
+            </div>
+            
+            <div class="item">
+              <img src="img4.avif" alt="not yet" style="width:40%;">
+            </div>
+            
+            
+            <div class="item">
+              <img src="img3.avif" alt="not yet" style="width:40%;">
+            </div>
+
+            
+            <div class="item">
+              <img src="img2.avif" alt="not yet" style="width:40%;">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+
+        <h1 style="position: absolute;
+        top: 740px;
+        bottom: 50px;
+        color:black; letter-spacing: 1px; margin-left: 700px;">Sadhguru is a yogi<br>
+           and a mystic</h1>
+
+           <p style="position: absolute;
+           top: 865px;
+           bottom: 50px;
+           color:black; margin-left: 700px; letter-spacing: 1px;">
+            a man whose passion spills into everything he encounters.<br>
+             Named one of India's 50 most influential people, Sadhguru's<br>
+              work has touched the lives of millions worldwide through his<br>
+               transformational programs. Sadhguru has a unique ability to<br>
+                make the ancient yogic sciences relevant to contemporary<br>
+                 minds, acting as a bridge to the deeper dimensions of life. His <br>
+                 approach does not ascribe to any belief system, but offers<br>
+                  methods for self-transformation that are both proven and<br>
+                   powerful.
+           </p>
+           <button style="position: relative; top:-1830px; bottom: 50px; color: red; margin-left: 700px; background-color: white;font-weight: bolder; height:
+            40px; letter-spacing: 2px; border: 1px solid rgba(248, 67, 67, 0.562); border-radius: 5px;">Download Press Kit</button>
+      </div>
+
+
+
+<!---->
+<!--2nd-->
+
+
+<div class="container" style="position: relative; top:-1680px; margin-left: 80px;">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  
+    <ol class="carousel-indicators" style="margin-left:-680px;">
+      <li data-target="#myCarousel" data-slide-to="0" class="active" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="1" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="2" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="3" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="4" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="5" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="6" style="width: 40px;"></li>
+    </ol>
+
+  
+    <div class="carousel-inner" >
+      <div class="item active">
+        <img src="imm.avif"alt="not yet" style="width:40%;">
+      </div>
+
+      <div class="item">
+        <img src="imm2.avif" alt="not yet" style="width:40%;">
+      </div>
+    
+      <div class="item">
+        <img src="imm3.avif" alt="not yet" style="width:40%;">
+      </div>
+
+      <div class="item">
+        <img src="imm4.avif" alt="not yet" style="width:40%;">
+      </div>
+      
+      <div class="item">
+        <img src="img4.avif" alt="not yet" style="width:40%;">
+      </div>
+      
+      
+      <div class="item">
+        <img src="imm5.avif" alt="not yet" style="width:40%;">
+      </div>
+
+      
+      <div class="item">
+        <img src="img2.avif" alt="not yet" style="width:40%;">
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+  <h1 style="position: relative; top:-1980px;
+  color:black; letter-spacing: 1px; margin-left: 730px;">An author, poet,<br> visionary,<br></h1>
+
+     <p style="position: relative; top:-1960px; margin-left: 730px;
+     color:black; letter-spacing: 1px;">
+      internationally renowned speaker and bestselling author, <br>
+      Sadhguru has been an influential voice at major global forums<br>
+       including the United Nations World Headquarters and the World<br>
+        Economic Forum, addressing issues as diverse as socioeconomic<br>
+         development, leadership and spirituality. He has also been invited<br>
+          to speak at leading educational institutions, including Oxford,<br>
+           London Business School, IMD, Stanford, Harvard, Yale, Wharton <br>
+           and MIT, to name a few.
+     </p>
+     <button style="position: relative; top:-1940px; color: red; margin-left: 730px; background-color: white;font-weight: bolder; height:
+      40px; letter-spacing: 2px; border: 1px solid rgba(248, 67, 67, 0.562); border-radius: 5px;">Download Press Kit</button>
+</div>
+
+
+<!---->
+<!--3rd-->
+
+<div class="container" style="position: relative; top:-1780px; margin-left: 80px;">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  
+    <ol class="carousel-indicators" style="margin-left:-680px;">
+      <li data-target="#myCarousel" data-slide-to="0" class="active" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="1" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="2" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="3" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="4" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="5" style="width: 40px;"></li>
+      <li data-target="#myCarousel" data-slide-to="6" style="width: 40px;"></li>
+    </ol>
+
+  
+    <div class="carousel-inner" >
+      <div class="item active">
+        <img src="imm6.avif"alt="not yet" style="width:40%;">
+      </div>
+
+      <div class="item">
+        <img src="imm7.avif" alt="not yet" style="width:40%;">
+      </div>
+    
+      <div class="item">
+        <img src="imm8.avif" alt="not yet" style="width:40%;">
+      </div>
+
+      <div class="item">
+        <img src="imm9.avif" alt="not yet" style="width:40%;">
+      </div>
+      
+      <div class="item">
+        <img src="imm10.avif" alt="not yet" style="width:40%;">
+      </div>
+      
+      
+      <div class="item">
+        <img src="img3.avif" alt="not yet" style="width:40%;">
+      </div>
+
+      <div class="item">
+        
+        <img src="imm11.avif" alt="not yet" style="width:40%;">
+      </div>
+    </div>
+    
+  </div>
+</div>
+  
+     <p style="position: relative; top:-2055px;
+     color:black; margin-left: 700px; letter-spacing: 1px;">
+      <span style="font-size:50px; font-weight: bolder;">
+      Dedicated
+      </span>
+      To
+      the physical, mental and<br>
+       spiritual wellbeing of humanity and gifted with utter clarity <br>
+       of perception, Sadhguru possesses a perspective on life and<br>
+        living that never fails to intrigue, challenge and surprise all<br>
+         those he encounters.
+     </p>
+     <button style="position: relative; top:-2040px; margin-left: 80px; color: red; margin-left: 700px; background-color: white;font-weight: bolder; height:
+      40px; letter-spacing: 2px; border: 1px solid rgba(248, 67, 67, 0.562); border-radius: 5px;">Download Press Kit</button>
+</div>
+
+
+
+<!---->
+
+<h2 style="position:relative; top:-1890px; text-align: center; font-weight: bolder;
+ color: black; font-size: 35px;">Sadhguru - More Than a Life</h2>
+<img src="snake-divider.svg" alt="not yet" style="position:relative; top:-1890px; margin-left: 500px; padding-top: 20px;">
+
+
+<h4 style="position:relative; top:-1890px; text-align: center; padding-top: 20px; letter-spacing: 1px;">
+  A book that empowers you to explore your spiritual self and could well change your life.<br>
+   "More Than a Life" is the extraordinary story of Sadhguru – a young agnostic who turned <br>
+   yogi, a wild motorcyclist who turned mystic, a skeptic who turned spiritual guide.<br>
+    Pulsating with his razor-sharp intelligence, bracing wit and modern-day vocabulary, the<br>
+     book empowers you to explore your spiritual self and could well change your life. In <br>
+     his early years, Jaggi Vasudev (or Sadhguru as he is now known) was a chronic truant, a <br>
+     boisterous prankster, and later a lover of motorbikes and fast cars. It is evident that the<br>
+      same urgency, passion and vitality echo in his spiritual pursuits to this day, from his <br>
+      creation of the historic Dhyanalinga - the mission of three lifetimes - to his approach as a <br>
+      guru. In Sadhguru's view, faith and reason, spirituality and science, the sacred and the <br>
+      material, cannot be divided into easy binaries. He sees people as "spiritual beings dabbling <br>
+      with the material rather than the reverse", and liberation as the fundamental longing in <br>
+      every form of life. Truth for him is a living experience instead of a destination, a <br>
+      conclusion, or a matter of metaphysical speculation. The possibility of self-realization, he<br>
+       strongly believes, is available to all. Drawing upon extended conversations with Sadhguru,<br>
+        interviews with Isha colleagues and fellow meditators, poet Arundhathi Subramaniam<br>
+         presents an evocative portrait of a contemporary mystic and guru – a man who seems to<br>
+          pack the intensity and adventure of several lifetimes into a single one.
+</h4>
+
+<label for="view" style="position:relative; top:-1890px;padding-top: 20px;
+ margin-left: 120px; color: gray; letter-spacing: 2px;">FILTER:</label>
+  <select style="position:relative; top:-1890px;padding: 10px; margin-left: 
+  10px; width: 130px; height: 40px; border:1px solid gray;">
+    <option value="view all">View All</option>
+    <option value="man">Man</option>
+    <option value="mission">Mission</option>
+    <option value="mystic">Mystic</option>
+  </select>
+
+      
+
+<!--Cards-->
+<!--fst-->
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="sad1.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="sad4.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="sad2.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="sad3.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+
+
+
+<!--2nd-->
+
+<div class="row">
+  <div class="column" style="padding-top: 20px;">
+    <div class="card">
+      <img src="sad5.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+  <div class="column" style="padding-top: 20px;">
+    <div class="card">
+      <img src="sad6.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px;cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+  <div class="column" style="padding-top: 20px;">
+    <div class="card">
+      <img src="sad7.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+  <div class="column" style="padding-top: 20px;">
+    <div class="card">
+      <img src="sad8.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+
+
+
+<!--3rd-->
+
+<div class="row">
+  <div class="column" style="padding-top: 20px;">
+    <div class="card">
+      <img src="sad9.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+  <div class="column" style="padding-top: 20px;">
+    <div class="card">
+      <img src="sad10.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+  <div class="column" style="padding-top: 20px;">
+    <div class="card">
+      <img src="sad11.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+  <div class="column" style="padding-top: 20px;">
+    <div class="card">
+      <img src="sad12.avif" alt="not yet" width="300vh;" style="cursor: pointer;">
+      <h4 style="padding-top: 20px; cursor: pointer;">Patanjali and Vanashree</h4>
+      <p style="padding-top:20px; cursor: pointer;"> After ascending three massive granite steps, one crosses into the<br>
+         entryway to the Dhyanalinga. On the left is the statue of Patanjali, the celebrated author of the Yoga<br>
+          Sutras, regarded as the father of modern yoga.</p>
+    </div>
+  </div>
+
+<!--button-->
+<div style="margin-top:-90vh; text-align: center; padding-top: 30px;">
+<button type="button" class="btn btn-danger"
+ style="width: 180px; height:45px; font-weight: bolder;
+  font-size: 20px;">Danger</button>
+</div>
+
+
+<!--owl carosol-->
+<div class="container-fluid">
+  <div class="row" style="margin-top:-0px; padding-top: 70px; margin-left: 90px; position: absolute;">
+    <div class="col-sm-12">
+      <div id="inam" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                  <div class="card" style="width:300px; height: 350px; margin: auto;">
+                    <img src="sadd1.jpg" alt="not yet" 
+                    class="card-img-top">
+                    <div class="card-body">
+                      <h4 class="card-title">24 - 27 Nov 2022</h4>
+                      <p class="card-text">Isha Yoga Center, Coimbatore</p>
+                      <button type="button" class="btn btn-warning">Register Now</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4">
+                  <div class="card" style="width:300px;height: 350px;">
+                    <img src="sadd3.jpg" alt="not yet" 
+                    class="card-img-top">
+                    <div class="card-body">
+                      <h4 class="card-title">24 - 27 Nov 2022</h4>
+                      <p class="card-text">Isha Yoga Center, Coimbatore</p>
+                      <button type="button" class="btn btn-warning">Register Now</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4">
+                  <div class="card" style="width:300px; height: 350px;">
+                    <img src="sadd1.jpg" alt="not yet" 
+                    class="card-img-top">
+                    <div class="card-body">
+                      <h4 class="card-title">24 - 27 Nov 2022</h4>
+                      <p class="card-text">Isha Yoga Center, Coimbatore</p>
+                      <button type="button" class="btn btn-warning">Register Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#inam" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#inam" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--footer-->
+<footer class="bg-dark text-white pt-5 pb-4" style="background-color: #403737; margin-top:-0px; 
+top:4600px; padding-top: 10px; width: 100%; position: absolute;">
+  <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning"></h5>
+              
+              <p><a href="#" class="text-white" style="color: 
+              white; font-size: 15px; text-decoration: underline;">Blog</a></p>
+
+              <p><a href="#" class="text-white" style="color: white; font-size: 15px; text-decoration: underline;">Music</a></p>
+
+              <p><a href="#" class="text-white" style="color: white; font-size: 15px; text-decoration: underline;">Isha Downloads</a></p>
+
+              <p><a href="#" class="text-white" style=" color: white; font-size: 15px; text-decoration: underline;">Media & Press Relase</a></p>
+              <p><a href="#" class="text-white" style="color: white; font-size: 15px; text-decoration: underline;">Yoga</a></p>
+              
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                
+              </h5>
+              <p><a href="#" class="text-white" style="text-decoration: none;
+               color: white; font-size: 15px; text-decoration: underline;">Isha Inight</a></p>
+
+              <p><a href="#" class="text-white" style="text-decoration: none;color: white; 
+              font-size: 15px; text-decoration: underline;">Isha Homeschool</a></p>
+              <p><a href="#" class="text-white" style="text-decoration: none;color: white; 
+              font-size: 15px; text-decoration: underline;">Isha Samskriti</a></p>
+              <p><a href="#" class="text-white" style="text-decoration: none;color: white;
+               font-size: 15px; text-decoration: underline;">Isha Life</a></p>
+              <p><a href="#" class="text-white" style="text-decoration: none;color: white;
+               font-size: 15px; text-decoration: underline;">Isha Rejuvenation</a></p>
+              <p><a href="#" class="text-white" style="text-decoration: none;color:
+               white; font-size: 15px; text-decoration: underline;">Isha Health Solutions</a></p>
+              <p><a href="#" class="text-white" style="text-decoration: none;color:
+               white; font-size: 15px; text-decoration: underline;">Projects Samskriti</a></p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning"
+               style="font-size:15px; color:  rgba(255, 0, 0, 0.788);">Contact</h5>
+
+              <p>
+                  <li class="fas fa-home mr-3" style=" color: white; font-size: 15px">
+                  </li>
+                 <p style=" color: white; font-size: 15px; padding-top: 10px;">
+                  Geo India
+                Isha Yoga Centre,
+               Velliangiri Foothills,
+               Ishana Vihar Post,
+              Coimbatore, Tamil Nadu
+                 641114
+              </p>
+              </p>
+
+              <p>
+                  <li class="fas fa-envelope mr-3">
+                  </li>
+                  <p style=" color: white; font-size: 15px">
+                  info@ishafoundation.org
+                  </p>
+              </p>
+              <p>
+                  <li class="fas fa-phone mr-3">
+                  </li>
+                  <p style=" color: white; font-size: 15px">
+                  +91 8300083111,
+                  04224283111,
+                  04223583111
+                  </p>
+              </p>
+              <p>
+                  <li class="fas fa-print |  mr-3">
+                  </li>
+                  <p style=" color: white; font-size: 15px; cursor: pointer;">
+                  Other Centres
+                  </p>
+              </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="font-size:15px; color: rgba(255, 0, 0, 0.788);">Download Our App
+            </h5>
+            <img src="footer.avif" alt="not yet">
+
+            <img src="ios-app.avif" alt="not yet" style="padding-top: 20px; cursor: pointer;">
+
+            <img src="group-4.avif" alt="not yet" style="padding-top: 20px;cursor: pointer;"> 
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="font-size:15px; color:  rgba(255, 0, 0, 0.788);">Find Us on Social Media
+          </h5>
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style=" color: white; font-size: 15px">
+                <i class="fab fa-facebook"></i></a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="color: white; font-size: 15px">
+                <i class="fab fa-twitter"></i></a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="color: white; font-size: 15px">
+                <i class="fab fa-google-plus"></i></a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style=" color: white; font-size: 15px">
+                <i class="fab fa-linkedin-in"></i></a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="color: white; font-size: 15px">
+                <i class="fab fa-youtube"></i></a>
+            </li>
+            </ul>
+      </div>
+      </div>
+<hr class="mb-4">
+<div class="row align-items-center">
+<div class="col-md-7 col-lg-8">
+<p style=" color: white; font-size: 15px; cursor: pointer;">© 1999 - 2022Isha Foundation. All Rights Reserved.|
+  Terms & Conditions|Privacy Policy
+</footer>
+</body>
+</html>
